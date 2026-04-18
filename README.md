@@ -1,2 +1,68 @@
-# Coins-detection-via-OCR
-Read coins via OCR and Gdip_all.ahk and displays the value every 2 seconds
+# 🚀 Coin OCR Script (ETW)
+
+## 🖥️ Setup
+
+### ✅ Display Settings
+Make sure your display is set to:
+- **Resolution:** `1680 x 1050`
+- **Scaling:** `100%`
+
+> ⚠️ Any other settings may break detection
+
+---
+
+## 🎮 Launch Game
+
+1. Open **ETW**
+2. Set the game to **FULLSCREEN**
+   - ❌ Not windowed  
+   - ❌ Not borderless  
+
+---
+
+## ▶️ Controls
+
+| Key | Action |
+|-----|--------|
+| **F1** | ▶️ Start Tracking |
+| **F2** | ⏹️ Stop / Exit |
+
+---
+
+## 💰 What This Does
+
+- Uses OCR to read your **coin value**
+- Automatically updates when you:
+  - 🪙 Pick up coins  
+  - 💸 Sell items  
+
+---
+
+## ⚠️ Important Notes
+
+- ❗ Coin counter must be **visible at all times**
+- ❗ UI elements should **not overlap** the coin display
+- ❗ Works best with **bright/golden coin text**
+
+---
+
+## 🧠 Troubleshooting
+
+### ❌ Showing `0`?
+Try:
+- Moving in-game (force UI refresh)
+- Picking up coins again
+- Re-checking resolution & scaling
+
+### ❌ Not detecting correctly?
+- Ensure fullscreen is enabled
+- Make sure nothing is covering the coin text
+- Verify your display settings match exactly
+
+---
+
+## 📌 Requirements
+
+- **AutoHotkey v2**
+- **Tesseract OCR** installed  
+  Default path:
