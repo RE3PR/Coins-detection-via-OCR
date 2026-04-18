@@ -40,9 +40,7 @@ Make sure your display is set to:
 
 ## ⚠️ Important Notes
 
-- ❗ Coin counter must be **visible at all times**
-- ❗ UI elements should **not overlap** the coin display
-- ❗ Works best with **bright/golden coin text**
+- ❗ Any Golden background might give wrong values when detecting
 
 ---
 
