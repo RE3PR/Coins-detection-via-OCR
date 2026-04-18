@@ -44,23 +44,4 @@ Make sure your display is set to:
 
 ---
 
-## 🧠 Troubleshooting
 
-### ❌ Showing `0`?
-Try:
-- Moving in-game (force UI refresh)
-- Picking up coins again
-- Re-checking resolution & scaling
-
-### ❌ Not detecting correctly?
-- Ensure fullscreen is enabled
-- Make sure nothing is covering the coin text
-- Verify your display settings match exactly
-
----
-
-## 📌 Requirements
-
-- **AutoHotkey v2**
-- **Tesseract OCR** installed  
-  Default path:
