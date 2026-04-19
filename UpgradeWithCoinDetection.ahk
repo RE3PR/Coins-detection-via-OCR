@@ -1,4 +1,5 @@
-﻿#Requires AutoHotkey v2.0
+;Consists out of a script to look at a link.txt and then it will read whether or not coin_enabled= is 0 or 1. If it is 1 then the script will follow a sequence of looking for your coin value and then proceeds to upgrade depending on link.txt value (This will be integerated better on a ui in the future)
+#Requires AutoHotkey v2.0
 #SingleInstance Force
 CoordMode "Pixel", "Screen"
 CoordMode "Mouse", "Screen"
