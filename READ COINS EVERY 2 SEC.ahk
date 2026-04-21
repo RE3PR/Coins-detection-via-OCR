@@ -18,8 +18,8 @@ if !pToken := Gdip_Startup() {
 OnExit (*) => Gdip_Shutdown(pToken)
 
 ; Hotkeys
-F1::ToggleMacro()
-F2::ExitApp()
+k::ToggleMacro()
+j::ExitApp()
 
 ; =========================
 ; TOGGLE LOOP
